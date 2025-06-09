@@ -1,0 +1,5 @@
+/node_modules/
+/installPackages/
+/out/
+/assets/ffmpeg.exe
+/assets/ffprobe.exe
