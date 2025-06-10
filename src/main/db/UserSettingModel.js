@@ -29,7 +29,7 @@ const addUserSetting = async(userId, email)=>{
     let sql = "select max(server_port) server_port from user_setting"
     let {serverPort} = await queryOne(sql, []);
     if(serverPort == null){
-        serverPort = 10240
+        serverPort = 15240
     }else{
         serverPort++;
     }
